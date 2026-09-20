@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aura & Oak</title>
+<style>
+*{box-sizing:border-box;margin:0}
+body{font-family:Arial;background:#10251f;color:#eee}
+nav{padding:25px 7%;display:flex;justify-content:space-between;border-bottom:1px solid #ffffff22}
+.logo{font:26px Georgia;color:#d6b77a}
+nav a{color:#eee;text-decoration:none;margin-left:25px}
+.hero{min-height:700px;padding:90px 7%;display:flex;align-items:center;background:linear-gradient(#10251fcc,#10251fcc),url("https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1600&q=80") center/cover}
+.hero div{max-width:700px}
+small{letter-spacing:4px;color:#d6b77a}
+h1{font:clamp(55px,8vw,100px) Georgia;line-height:1;margin:25px 0}
+p{line-height:1.8;font-size:17px}
+.btn{display:inline-block;background:#d6b77a;color:#10251f;padding:15px 28px;margin-top:30px;text-decoration:none;font-weight:bold}
+section{padding:90px 7%}
+h2{font:45px Georgia;color:#d6b77a;margin-bottom:40px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{padding:35px;border:1px solid #ffffff25;background:#ffffff08}
+.card h3{font:26px Georgia;color:#d6b77a;margin-bottom:15px}
+.stats{display:flex;justify-content:space-around;text-align:center;background:#d6b77a;color:#10251f}
+.stats b{font:45px Georgia;display:block}
+footer{text-align:center;padding:30px;border-top:1px solid #ffffff22}
+@media(max-width:700px){nav a{display:none}.cards{grid-template-columns:1fr}.stats{display:block}.stats div{padding:25px}}
+</style>
+</head>
+<body>
+
+<nav>
+<b class="logo">AURA & OAK</b>
+<div><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+</nav>
+
+<div class="hero">
+<div>
+<small>USHERING • PROTOCOL • EVENT SUPPORT</small>
+<h1>Make every guest feel welcome.</h1>
+<p>Professional ushers and event support for weddings, conferences, celebrations and special occasions in Port Harcourt.</p>
+<a class="btn" href="#contact">Book Our Team</a>
+</div>
+</div>
+
+<section id="services">
+<h2>What We Provide</h2>
+<div class="cards">
+<div class="card"><h3>Professional Ushers</h3><p>Well-presented, trained ushers who welcome and guide your guests.</p></div>
+<div class="card"><h3>Guest Management</h3><p>Seating, registration, directions and smooth guest flow.</p></div>
+<div class="card"><h3>Event Protocol</h3><p>Organized support for VIPs, ceremonies and formal events.</p></div>
+</div>
+</section>
+
+<div class="stats">
+<div><b>3+</b>Ushers Packages</div>
+<div><b>100%</b>Professional</div>
+<div><b>PH</b>Based Team</div>
+</div>
+
+<section id="contact">
+<h2>Ready to welcome your guests?</h2>
+<p>Let's discuss your event, guest count and staffing requirements.</p>
+<a class="btn" href="https://wa.me/2348000000000">WhatsApp Aura & Oak</a>
+</section>
+
+<footer>Aura & Oak Ushering Agency © 2026</footer>
+</body>
+  </html>
